@@ -1,0 +1,11 @@
+name;surname;number;comment;address
+Lester;Mercenary;+49 893 7580 6771;Experienced warrior
+Lester;Water Mage;+49 490 9399 3111;Dragon Hunter
+Saturas;Fire Mage;+49 903 7131 8772;Novice
+Thorus;Shadow Hunter;+49 947 7251 1388;Dragon Hunter
+Diego;Necromancer;+49 672 9637 9162;Potion expert
+Cor Angar;Necromancer;+49 467 6334 4106;Potion expert
+Cavalorn;Guard Captain;+49 458 8156 3187;From Old Camp
+Cavalorn;Guard Captain;+49 616 8497 1406;Fire Mage
+Thorus;Necromancer;+49 417 6067 7421;Fire Mage
+Lester;Water Mage;+49 369 5307 6923;From Old Cam
