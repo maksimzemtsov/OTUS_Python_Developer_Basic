@@ -6,6 +6,14 @@ index_counter = count()
 class Contact:
     def __init__(self, name: str, surname: str, phone: str, comment: str):
         self.id = str(next(index_counter))
+        if not name:
+            raise ValueError('Name cant be empty')
+        if not surname:
+            raise ValueError('Surname cant be empty')
+        if not phone:
+            raise ValueError('phone cant be empty')
+        if not comment:
+            raise ValueError('comment cant be empty')
         self.name = name.strip()
         self.surname = surname.strip()
         self.phone = phone.strip()
@@ -19,12 +27,13 @@ class PhoneBook:
 
     def find_contact(self, query: str) -> list[Contact]:
         founded = []
+        query = query.lower()
         for contact in self.contacts:
-            if (query in contact.id or
-                    query in contact.name or
-                    query in contact.surname or
-                    query in contact.phone or
-                    query in contact.comment):
+            if (query in contact.id.lower() or
+                    query in contact.name.lower() or
+                    query in contact.surname.lower() or
+                    query in contact.phone.lower() or
+                    query in contact.comment.lower()):
                 founded.append(contact)
 
         return founded
