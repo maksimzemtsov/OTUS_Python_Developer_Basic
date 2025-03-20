@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}{{ cake.name }}{% endblock %}
+{% block content %}
+<div class="container">
+    <h1 class="my-4">{{ cake.name }}</h1>
+    <div class="row">
+        <div class="col-md-6">
+            <img src="{{ cake.image }}" class="img-fluid" alt="{{ cake.name }}">
+        </div>
+        <div class="col-md-6">
+            <p><strong>Описание:</strong> {{ cake.description }}</p>
+            <a href="{{ url_for('index') }}" class="btn btn-secondary">Назад</a>
+        </div>
+    </div>
+</div>
+{% endblock %}
