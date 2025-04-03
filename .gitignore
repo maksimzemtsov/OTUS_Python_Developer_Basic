@@ -3,5 +3,11 @@ homework2/__pycache__/
 homework3/__pycache__/
 homework4/__pycache__/
 homework5/__pycache__/
+homework6/__pycache__/
+homework8/__pycache__/
+homework8/djangoproject/db.sqlite3
+homework8/djangoproject/store/management/commands/__pycache__/
+homework8/djangoproject/store/__pycache__/
+homework6/test.db
 .idea/
 ./studyfile.py
