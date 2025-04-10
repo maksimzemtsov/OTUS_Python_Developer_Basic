@@ -1,0 +1,14 @@
+{% extends "store/base.html" %}
+
+{% block title %}Список товаров{% endblock %}
+
+{% block content %}
+    <h2>Список товаров</h2>
+    <ul>
+        {% for product in products %}
+            <li>
+                <a href="{% url 'product_detail' product.id %}">{{ product.name }}</a> - {{ product.price }} ₽
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}
