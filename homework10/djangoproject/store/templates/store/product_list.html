@@ -1,0 +1,16 @@
+{% extends "store/base.html" %}
+
+{% block content %}
+<h2>Список товаров</h2>
+<a href="{% url 'product_create' %}">Добавить товар</a>
+<ul>
+    {% for product in products %}
+        <li>
+            <a href="{% url 'product_detail' product.pk %}">{{ product.name }}</a>
+            — {{ product.price }} ₽
+        </li>
+    {% empty %}
+        <li>Нет товаров.</li>
+    {% endfor %}
+</ul>
+{% endblock %}

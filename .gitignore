@@ -5,10 +5,16 @@ homework4/__pycache__/
 homework5/__pycache__/
 homework6/__pycache__/
 homework8/__pycache__/
-homework9/__pycache__/
+homework10/9/__pycache__/
 homework8/djangoproject/db.sqlite3
 homework8/djangoproject/store/management/commands/__pycache__/
 homework8/djangoproject/store/__pycache__/
 homework6/test.db
 .idea/
 ./studyfile.py
+homework10/djangoproject/db.sqlite3
+homework10/djangoproject/djangoproject/__pycache__/
+homework10/djangoproject/store/__pycache__/
+homework10/djangoproject/store/management/__pycache__/
+homework10/djangoproject/store/migrations/__pycache__/
+homework10/djangoproject/store/tests/__pycache__/
